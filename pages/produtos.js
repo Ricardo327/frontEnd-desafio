@@ -44,6 +44,8 @@ const Produtos = {
                            </tr>                  
                        </tbody>
                    </table>
+                   <router-link class="btn btn-sm btn-light text-info rounded"
+                                       @click="destroy(dadosForm)" to="/">Voltar</router-link>   
                  </div>
                </div>
            </div>
